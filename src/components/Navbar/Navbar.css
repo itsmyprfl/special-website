@@ -1,0 +1,45 @@
+.nav-container {
+  width: 100%;
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.nav-container .logo h2 {
+  color: white;
+  font-size: 28px;
+}
+.nav-container .links ul li {
+  margin-top: 5px;
+}
+.nav-container .links ul li .link {
+  margin-left: 20px;
+  color: #323232;
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.5s;
+}
+.nav-container .links ul li .link:hover {
+  color: #fff;
+}
+.nav-container .btn {
+  padding: 10px 30px;
+  margin-right: 20px;
+  background-color: #323232;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.nav-container .btn:hover {
+  background-color: #fff;
+}
+.nav-container .btn:hover .btnlink {
+  color: #323232;
+}
+.nav-container .btn .btnlink {
+  font-weight: 600;
+  font-size: 14px;
+  color: #fff;
+  transition: 0.5s;
+}/*# sourceMappingURL=Navbar.css.map */

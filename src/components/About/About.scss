@@ -1,0 +1,162 @@
+.about {
+    width: 100%;
+    padding: 20px 30px;
+    background: #0f0f0f;
+
+    .container {
+        max-width: 100%;
+
+        .top-container {
+            width: 100%;
+            display: flex;
+            padding: 20px 30px;
+
+            .left-box {
+                height: 360px;
+                width: 350px;
+                padding: 30px 30px;
+                background: linear-gradient(to right, #323232, #141414);
+                border-radius: 10px;
+
+                .content {
+                    .img-box {
+                        width: 100%;
+                        height: 300px;
+                        background: #009dff;
+                        border-radius: 10px;
+
+                        img {
+                            width: 100%;
+                            height: 300px;
+                            object-fit: cover;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+
+            .right-box {
+                width: 75%;
+                padding: 30px 30px;
+                margin-left: 30px;
+
+                .content {
+                    .heading {
+                        display: flex;
+
+                        h2 {
+                            font-weight: 200;
+                            font-size: 48px;
+                            color: #c6c6c6;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                    .detail {
+                        width: 100%;
+                        background: linear-gradient(to right, #323232, #141414);
+                        margin-top: 20px;
+                        padding: 30px 30px;
+                        border-radius: 10px;
+                        margin-top: 30px;
+
+                        img {
+                            margin-top: -30px;
+                        }
+
+                        .info {
+                            margin-top: 30px;
+                            margin-left: 17px;
+                            padding: 20xp 20px;
+
+                            h3 {
+                                color: #fff;
+                                font-size: 32px;
+                            }
+
+                            p {
+                                margin-top: 10px;    
+                                color: #c6c6c6;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .mid-container {
+            width: 100%;
+            padding: 20px 20px;
+            
+            .main {
+                display: flex;
+                max-width: 100%;
+
+                .experience {
+                    width: 49%;
+                    margin-top: 20px;
+                    padding: 20px 20px;
+                    background: linear-gradient(to right, #323232, #141414);
+                    border-radius: 10px;
+
+                    h2 {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                        font-weight: 200;
+                    }
+
+                    .box {
+                        margin-top: 20px;
+
+                        p {
+                            margin-top: 5px;
+                            color: #9d9d9d;
+                        }
+
+                        h3 {
+                            color: #fff;
+                            margin-top: 10px;
+                            font-weight: 200;
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .education {
+                    width: 49%;
+                    margin-top: 20px;
+                    padding: 20px 20px;
+                    background: linear-gradient(to right, #323232, #141414);
+                    border-radius: 10px;
+                    margin-left: 20px;
+
+                    h2 {
+                        color: #fff;
+                        text-transform: uppercase;
+                        font-size: 18px;
+                        letter-spacing: 1px;
+                        font-weight: 200;
+                    }
+
+                    .box {
+                        margin-top: 20px;
+
+                        h3 {
+                            color: #fff;
+                            margin-top: 5px;
+                            font-weight: 200;
+                            font-size: 18px;
+                        }
+
+                        p {
+                            margin-top: 5px;
+                            color: #9d9d9d;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

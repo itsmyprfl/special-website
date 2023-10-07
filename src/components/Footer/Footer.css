@@ -1,0 +1,104 @@
+.footer {
+  padding: 20px 30px;
+  width: 100%;
+  background: #0f0f0f;
+}
+.footer .top-container {
+  max-width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.footer .top-container .contant {
+  width: 100%;
+  display: flex;
+}
+.footer .top-container .contant .left-box {
+  width: 49%;
+  padding: 30px 30px;
+  background: linear-gradient(to right, #323232, #141414);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .top-container .contant .left-box .box {
+  padding: 40px 20px;
+  background: #242424;
+  border-radius: 10px;
+}
+.footer .top-container .contant .left-box .box .detail h3 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+}
+.footer .top-container .contant .left-box .box .detail p {
+  font-size: 12px;
+  color: #c6c6c6;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
+}
+.footer .top-container .contant .right-box {
+  width: 49%;
+  padding: 30px 30px;
+  background: linear-gradient(to right, #323232, #141414);
+  border-radius: 10px;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+.footer .top-container .contant .right-box :hover {
+  color: #fff;
+}
+.footer .top-container .contant .right-box .contant {
+  display: flex;
+  cursor: pointer;
+}
+.footer .top-container .contant .right-box .contant .detail {
+  margin-top: 20px;
+}
+.footer .top-container .contant .right-box .contant .detail h2 {
+  color: #fff;
+  font-size: 42px;
+}
+.footer .top-container .contant .right-box .contant .detail h2 span {
+  color: #5a77f3;
+}
+.footer .top-container .contant .right-box .contant .icon {
+  margin-top: 35px;
+  margin-left: 150px;
+  font-size: 22px;
+  color: #6c6c6c;
+  transition: 0.5s;
+}
+.footer .bottom-container {
+  width: 100%;
+  padding: 30px 40px;
+}
+.footer .bottom-container .container {
+  max-width: 100%;
+  margin-top: 20px;
+}
+.footer .bottom-container .container h2 {
+  text-align: center;
+  font-size: 42px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.footer .bottom-container .container .nav {
+  width: 100%;
+  margin-top: 30px;
+}
+.footer .bottom-container .container .nav ul {
+  display: flex;
+  margin-left: 39%;
+}
+.footer .bottom-container .container .nav ul li {
+  margin-left: 20px;
+}
+.footer .bottom-container .container .nav ul li .link {
+  font-weight: 600;
+  color: #323232;
+  transition: 0.5s;
+}
+.footer .bottom-container .container .nav ul li .link :hover {
+  color: #fff;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,128 @@
+.contact {
+    width: 100%;
+    background: #0f0f0f;
+    padding: 20px 30px;
+
+    .container {
+        max-width: 100%;
+        display: flex;
+        margin-top: 10px;
+
+        .left-box {
+            width: 30%;
+            padding: 20px 20px;
+
+            h3 {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: #fff;
+                letter-spacing: 1.5px;
+            }
+
+            .info {
+                margin-top: 20px;
+
+                .box {
+                    width: 100%;
+                    padding: 10px 20px;
+                    display: flex;
+
+                    .icon {
+                        padding: 20px 20px;
+                        border-radius: 10px;
+                        background: linear-gradient(to right, #363636, #141414);
+                        font-size: 22px;
+                        color: #fff;
+                    }
+
+                    .detail {
+                        margin-left: 20px;
+
+                        h4 {
+                            text-transform: uppercase;
+                            font-size: 14px;
+                            letter-spacing: 1px;
+                            color: #9d9d9d;
+                            font-weight: 300;
+                            margin-bottom: 10px;
+                        }
+
+                        p {
+                            font-weight: 600;
+                            color: #d7d7d7;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .right-box {
+            margin-left: 170px;
+            padding: 30px 30px;
+            background: linear-gradient(to right, #363636, #141414);
+            border-radius: 20px;
+            width: 600px;
+
+            img {
+                float: right;
+            }
+
+            h2 {
+                font-size: 42px;
+                color: #fff;
+                text-transform: capitalize;
+
+                span {
+                    color: #5a77f3;
+                }
+            }
+
+            form {
+                display: flex;
+                margin-top: 40px;
+                flex-direction: column;
+
+                input {
+                    margin-top: 10px;
+                    padding: 20px 20px;
+                    border-radius: 50px;
+                    border: none;
+                    outline: none;
+                    background: #0f0f0f;
+                    color: #fff;
+                    resize: none;
+                }
+
+                textarea{
+                    margin-top: 10px;
+                    padding: 20px 20px;
+                    border-radius: 20px;
+                    border: none;
+                    outline: none;
+                    background: #0f0f0f;
+                    color: #fff;
+                    resize: none;
+                    height: 200px;
+                }
+
+                button {
+                    margin-top: 10px;
+                    background: #0f0f0f;
+                    border: none;
+                    outline: none;
+                    color: #fff;
+                    padding: 20px 20px;
+                    border-radius: 20px;
+                    transition: 0.5s;
+                    cursor: pointer;
+
+                    &:hover{
+                        color: #0f0f0f;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

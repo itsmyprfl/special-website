@@ -1,0 +1,124 @@
+.footer {
+    padding: 20px 30px;
+    width: 100%;
+    background: #0f0f0f;
+
+    .top-container {
+        max-width: 100%;
+        display: flex;
+        margin-top: 20px;
+
+        .contant {
+            width: 100%;
+            display: flex;
+
+            .left-box {
+                width: 49%;
+                padding: 30px 30px;
+                background: linear-gradient(to right, #323232, #141414);
+                border-radius: 10px;
+                display: flex;
+                justify-content: space-between;
+
+                .box {
+                    padding: 40px 20px;
+                    background: #242424;
+                    border-radius: 10px;
+
+                    .detail {
+                        h3 {
+                            font-size: 32px;
+                            color: #fff;
+                            text-align: center;
+                        }
+
+                        p {
+                            font-size: 12px;
+                            color: #c6c6c6;
+                            text-transform: uppercase;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+
+            .right-box {
+                width: 49%;
+                padding: 30px 30px;
+                background: linear-gradient(to right, #323232, #141414);
+                border-radius: 10px;
+                justify-content: space-between;
+                margin-left: 20px;
+                :hover{
+                    color: #fff;
+                }
+
+                .contant{
+                    display: flex;
+                    cursor: pointer;
+
+                    .detail{
+                        margin-top: 20px;
+                        h2 {
+                            color: #fff;
+                            font-size: 42px;
+
+                            span {
+                                color: #5a77f3;
+                            }
+                        }
+                    }
+
+                    .icon {
+                        margin-top: 35px;
+                        margin-left: 150px;
+                        font-size: 22px;
+                        color: #6c6c6c;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-container {
+        width: 100%;
+        padding: 30px 40px;
+
+        .container{
+            max-width: 100%;
+            margin-top: 20px;
+
+            h2 {
+                text-align: center;
+                font-size: 42px;
+                color: #fff;
+                letter-spacing: 1px;
+            }
+
+            .nav {
+                width: 100%;
+                margin-top: 30px;
+
+                ul{
+                    display: flex;
+                    margin-left: 39%;
+
+                    li{
+                        margin-left: 20px;
+
+                        .link {
+                            font-weight: 600;
+                            color: #323232;
+                            transition: 0.5s;
+                            :hover{
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
